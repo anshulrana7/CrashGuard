@@ -43,13 +43,21 @@ Traditional solutions rely heavily on **manual reporting and stable connectivity
 
 CrashGuard introduces an intelligent adaptive emergency response system that provides:
 
-- 🔍 Automatic crash detection via sensor intelligence  
-- 📍 Real-time GPS location tracking  
-- 📡 Adaptive network fallback (Online → Weak Signal → Offline Queue)  
-- 📲 Multi-channel emergency alert notifications  
-- 🧠 False positive prevention workflow  
-- 🔁 Offline retry mechanism for guaranteed alert delivery  
+🔍 Automatic crash detection using real-time sensor intelligence  
+📍 Real-time GPS location tracking with continuous updates  
+📡 Adaptive network fallback (Online → Weak Signal → Offline Queue)  
+📲 Multi-channel emergency alert notifications (Push, SMS, Call)  
+🧠 AI-based false positive prevention workflow  
+🔁 Offline retry mechanism for guaranteed alert delivery  
 
+🚨 Instant emergency SMS alerts sent to **pre-registered family members / parents** with live location  
+📡 Continuous **dynamic location sharing** with guardians until the victim is marked safe  
+👥 Nearby **civilian responders notified** to provide immediate assistance  
+🚓 Automatic alert dispatch to **nearest police authorities** with crash coordinates  
+🚑 Emergency request transmitted to **nearest ambulance services** for rapid response  
+📞 Automated emergency **voice call trigger** when severe crash is detected  
+🗺️ Real-time rescue coordination enabled via live tracking dashboard  
+⏱️ Smart escalation system if first alert is not acknowledged  
 ---
 
 ## ⚙️ System Workflow
