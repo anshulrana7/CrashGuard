@@ -18,47 +18,49 @@
 
 ---
 
-## 📌 Overview
+## 🌍 Overview
 
-CrashGuard is a real-time accident detection and emergency response platform built using **React Native (Expo)** and **Node.js backend**.
+CrashGuard is a real-time accident detection and emergency response platform built using **React Native (Expo)** and a **Node.js backend**.
 
-The system automatically detects crashes using mobile sensor intelligence and instantly alerts emergency contacts with live location data.
+It intelligently detects crashes using **mobile sensor data** and instantly alerts emergency contacts with **live GPS tracking**, even in **low or unstable network conditions**.
 
-It is designed to work even in **low or unstable network conditions** using adaptive synchronization strategies.
+The system focuses on reducing **post-accident response time** and improving survival chances through **automated emergency communication**.
 
 ---
 
 ## 🚨 Problem Statement
 
-- Road accidents cause millions of deaths globally every year  
-- Victims often cannot call emergency services after impact  
-- Many accidents occur in low-network areas  
-- Delay in response increases fatality risk  
+- 🚗 Millions of road fatalities occur globally every year  
+- 📵 Victims are often unable to call emergency services after impact  
+- 📶 Many accidents occur in poor network coverage areas  
+- ⏱️ Delay in response significantly increases fatality risk  
+
+Traditional solutions rely heavily on **manual reporting and stable connectivity**, making them unreliable in critical moments.
 
 ---
 
-## ✅ Solution
+## ✅ Our Solution
 
-CrashGuard provides:
+CrashGuard introduces an intelligent adaptive emergency response system that provides:
 
-- Automatic crash detection via motion sensors
-- Real-time GPS tracking
-- Emergency alert notification system
-- Offline alert retry mechanism
-- Adaptive network communication strategy
-- False positive prevention workflow
+- 🔍 Automatic crash detection via sensor intelligence  
+- 📍 Real-time GPS location tracking  
+- 📡 Adaptive network fallback (Online → Weak Signal → Offline Queue)  
+- 📲 Multi-channel emergency alert notifications  
+- 🧠 False positive prevention workflow  
+- 🔁 Offline retry mechanism for guaranteed alert delivery  
 
 ---
 
 ## ⚙️ System Workflow
 
-1. User is driving → app runs in background  
-2. Crash detected via accelerometer pattern  
-3. Countdown timer to cancel false alert  
-4. GPS coordinates captured  
-5. Alert sent to backend server  
-6. Emergency contacts notified  
-7. Live tracking enabled for rescue
+1️⃣ User is driving → app runs silently in background  
+2️⃣ Crash detected via accelerometer & motion patterns  
+3️⃣ Countdown timer prevents false alerts  
+4️⃣ GPS coordinates captured instantly  
+5️⃣ Alert transmitted to backend server  
+6️⃣ Emergency contacts notified with live location  
+7️⃣ Continuous real-time tracking enabled  
 
 ---
 
@@ -84,42 +86,41 @@ crashguard/
 ```
 
 ---
+## ✨ Key Features
 
-## 🧠 Key Features
+### 📱 Mobile Application (React Native + Expo)
 
-### 📱 Mobile App (React Native + Expo)
+- Intelligent crash detection logic  
+- Continuous GPS tracking system  
+- Offline alert queue & retry engine  
+- Real-time network monitoring  
+- Emergency alert interface  
+- Sensor-based motion analysis  
 
-- Crash detection logic
-- GPS location tracking
-- Offline queue system
-- Network monitoring
-- Emergency alert UI
-- Sensor data processing
+### 🌐 Backend System (Node.js + Express)
 
-### 🌐 Backend (Node.js + Express)
-
-- Crash event API handling
-- Emergency notification logic
-- Contact management
-- Location processing
-- Middleware security layer
+- Crash event API processing  
+- Emergency notification routing  
+- Contact & incident management  
+- Real-time location handling  
+- Middleware security architecture  
 
 ---
 
 ## 🛠️ Tech Stack
 
-Frontend:
+**Frontend**
 - React Native (Expo)
 - JavaScript / TypeScript
 
-Backend:
+**Backend**
 - Node.js
 - Express.js
 
-Other:
-- GPS APIs
-- Sensor APIs
-- REST APIs
+**System Components**
+- GPS APIs  
+- Sensor APIs  
+- RESTful Services  
 
 ---
 
@@ -127,11 +128,10 @@ Other:
 
 ### Backend Setup
 
-
+```bash
 cd backend
 npm install
 node server.js
-
 
 ### Mobile Setup
 
