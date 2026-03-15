@@ -1,6 +1,15 @@
 <div align="center">
 
-# 🛡️ CrashGuard  
+
+```
+ ██████╗██████╗  █████╗ ███████╗██╗  ██╗ ██████╗ ██╗   ██╗ █████╗ ██████╗ ██████╗ 
+██╔════╝██╔══██╗██╔══██╗██╔════╝██║  ██║██╔════╝ ██║   ██║██╔══██╗██╔══██╗██╔══██╗
+██║     ██████╔╝███████║███████╗███████║██║  ███╗██║   ██║███████║██████╔╝██║  ██║
+██║     ██╔══██╗██╔══██║╚════██║██╔══██║██║   ██║██║   ██║██╔══██║██╔══██╗██║  ██║
+╚██████╗██║  ██║██║  ██║███████║██║  ██║╚██████╔╝╚██████╔╝██║  ██║██║  ██║██████╔╝
+ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ 
+```
+
 ### Adaptive Crash Detection & Real-Time Emergency Response System
 
 🚨 Detect • Sync • Respond • Save Lives
@@ -53,31 +62,26 @@ CrashGuard provides:
 
 ---
 
-## 🏗️ Project Structure
+## 🏗️ Architecture Deep Dive
 
-
+```
 crashguard/
-
-├── backend/
-│ ├── config/
-│ ├── middleware/
-│ ├── models/
-│ ├── routes/
-│ ├── server.js
-│ └── .env
+├── 📁 backend/                   # Node.js + TypeScript
+│   ├── crash-event-processor/    # Receives & validates crash events
+│   ├── emergency-dispatcher/     # Routes alerts to contacts & services
+│   ├── adaptive-sync-engine/     # Core sync orchestrator
+│   ├── location-service/         # Real-time GPS tracking
+│   ├── notification-gateway/     # Multi-channel alert delivery
+│   └── api/                      # REST + WebSocket endpoints
 │
-└── mobile/
-├── app/
-├── components/
-├── constants/
-├── context/
-├── hooks/
-├── assets/
-├── scripts/
-├── android/
-├── app.json
-└── package.json
-
+└── 📁 mobile/                    # Cross-platform mobile client
+    ├── crash-detector/           # Accelerometer + ML crash detection
+    ├── sync-client/              # Adaptive SYNC client layer
+    ├── offline-queue/            # Stores & retries alerts when offline
+    ├── network-monitor/          # Tracks connectivity in real-time
+    ├── location-tracker/         # Continuous GPS logging
+    └── ui/                       # User interface + alert screens
+```
 
 ---
 
