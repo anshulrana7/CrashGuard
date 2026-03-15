@@ -155,10 +155,11 @@ CrashGuard aims to:
 ---
 
 ## 👨‍💻 Team
-**Vishal Kumar**
-**Anshul Rana** 
-**Abhi Raj**
-**Abhijeet** 
+- **Vishal Kumar**
+- **Anshul Rana** 
+- **Abhi Raj**
+- **Abhijeet**  
+
 Full Stack Developer
 
 ---
