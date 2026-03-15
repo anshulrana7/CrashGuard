@@ -58,6 +58,7 @@ CrashGuard introduces an intelligent adaptive emergency response system that pro
 📞 Automated emergency **voice call trigger** when severe crash is detected  
 🗺️ Real-time rescue coordination enabled via live tracking dashboard  
 ⏱️ Smart escalation system if first alert is not acknowledged  
+
 ---
 
 ## ⚙️ System Workflow
